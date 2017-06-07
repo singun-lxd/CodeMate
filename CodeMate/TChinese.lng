@@ -1,0 +1,221 @@
+[Code Mate]
+Language=1
+
+[File Menu]
+MENU_FILE		= 檔案(&F)
+MENU_FILE_ADD_ITEM	= 添加項目(&A)...	Ctrl+N
+TEXT_FILE_ADD_ITEM	= 在分類中添加代碼片段項目
+MENU_FILE_CREATE_CLASS	= 創建新分類(&N)
+TEXT_FILE_CREATE_CLASS	= 新建一個代碼片段項目的分類
+MENU_FILE_SAVE		= 存儲更改(&S)	Ctrl+S
+TEXT_FILE_SAVE		= 將當前代碼片段項目存儲到檔案中
+MENU_FILE_EXPORT	= 導出為檔案(&P)...
+TEXT_FILE_EXPORT	= 用一個新的檔案名存儲當前代碼片段項目
+MENU_FILE_CLOSE		= 關閉當前檔案(&U)
+TEXT_FILE_CLOSE		= 關閉當前代碼片段項目
+MENU_FILE_MOVE		= 移動到分類(&M)...
+TEXT_FILE_MOVE		= 將選定的項目移動到指定的分類
+MENU_FILE_DELETE_ITEM	= 移除選中項目(&E)	Shift+Del
+TEXT_FILE_DELETE_ITEM	= 移除選中的項目或分類
+MENU_FILE_DELETE_CLASS	= 移除選中分類(&E)	Shift+Del
+MENU_FILE_RENAME_ITEM	= 重新命名選中的項目(&R)	F2
+TEXT_FILE_RENAME_ITEM	= 移除選中的項目或
+MENU_FILE_RENAME_CLASS	= 重新命名選中的分類(&R)	F2
+MENU_FILE_ATTRIBUTE	= 屬性(&T)...	Alt+Enter
+TEXT_FILE_ATTRIBUTE	= 檢視選中項目的屬性
+MENU_FILE_REFRESH	= 刷新項目和分類(&L)
+TEXT_FILE_REFRESH	= 重新加載所有項目和分類信息
+MENU_FILE_CLEAR_ALL	= 清空項目和分類(&C)
+TEXT_FILE_CLEAR_ALL	= 清空所有分類和項目
+MENU_FILE_EXIT		= 結束(&E)	Alt+F4
+TEXT_FILE_EXIT		= 離開 Code Mate；提示存儲更改
+MENU_FILE_SEARCH	= 檢索項目和分類(&S)	F4
+TEXT_FILE_SEARCH	= 檢索指定條件的項目和分類
+
+[Edit Menu]
+MENU_EDIT		= 編輯(&E)
+MENU_EDIT_UNDO		= 撤銷(&U)	Ctrl+Z
+TEXT_EDIT_UNDO		= 撤銷上一文本操作
+MENU_EDIT_CUT		= 剪下(&T)	Ctrl+X
+TEXT_EDIT_CUT		= 剪下選定內容並將其放到剪貼簿上
+MENU_EDIT_COPY		= 複製(&C)	Ctrl+C
+TEXT_EDIT_COPY		= 複製選定內容並將其放到剪貼簿上
+MENU_EDIT_PASTE		= 貼上(&P)	Ctrl+V
+TEXT_EDIT_PASTE		= 插入剪貼簿內容
+MENU_EDIT_DELETE	= 移除(&D)	Del
+TEXT_EDIT_DELETE	= 清除選定內容
+MENU_EDIT_SELECT_ALL	= 全選(&A)	Ctrl+A
+TEXT_EDIT_SELECT_ALL	= 選中所有文本內容
+MENU_EDIT_CLEAR_ALL	= 清空(&L)
+TEXT_EDIT_CLEAR_ALL	= 清除全部內容
+MENU_EDIT_ADD_A_LINE	= 添加一行(&L)	Ctrl+M
+TEXT_EDIT_ADD_A_LINE	= 在當前位置添加一行
+MENU_EDIT_DEL_A_LINE	= 移除一行(I)	Ctrl+L
+TEXT_EDIT_DEL_A_LINE	= 移除當前行
+MENU_EDIT_FIND		= 尋找(&F)...	Ctrl+F
+TEXT_EDIT_FIND		= 尋找指定的文本
+MENU_EDIT_FIND_NEXT	= 尋找下一個(&N)	F3
+TEXT_EDIT_FIND_NEXT	= 尋找下一個指定的文本
+MENU_EDIT_REPLACE	= 取代(&R)...	Ctrl+H
+TEXT_EDIT_REPLACE	= 用新的文本項取代指定的文本內容
+MENU_EDIT_GOTO		= 轉到(&G)...	Ctrl+G
+TEXT_EDIT_GOTO		= 將光標移動到指定的行和字符
+MENU_EDIT_SHOW_LIST	= 顯示自動完成列表(&S)	Ctrl+J
+TEXT_EDIT_SHOW_LIST	= 在光標位置顯示或隱藏自動完成關鍵詞列表
+MENU_EDIT_CHANGE_TYPE	= 更改代碼類型(&H)...
+TEXT_EDIT_CHANGE_TYPE	= 設定當前文檔的語法著色代碼類型
+
+[Setting Menu]
+MENU_SETTING		= 設定(&S)
+MENU_SETTING_OPTION	= 選項(&O)...
+TEXT_SETTING_OPTION	= 打開 Code Mate 的選項對話框
+MENU_SETTING_VIEW	= 檢視(&V)
+MENU_VIEW_TOOLBAR	= 工具列(&T)
+TEXT_VIEW_TOOLBAR	= 顯示或隱藏工具列
+MENU_VIEW_STATUSBAR	= 狀態列(&S)
+TEXT_VIEW_STATUSBAR	= 顯示或隱藏狀態列
+MENU_SETTING_LANGUAGE	= 介面語言(&L)
+
+[Skin Menu]
+MENU_SKIN	= 皮膚(&K)
+MENU_SKIN_SYSTEM		= <系統主題>
+TEXT_SKIN_SYSTEM		= 更改主題
+
+[Help Menu]
+MENU_HELP		= 說明(&H)
+MENU_HELP_VIEW_HELP	= 檢視說明(&V)...	F1
+TEXT_HELP_VIEW_HELP	= 檢視 Code Mate 的說明信息
+MENU_HELP_ABOUT		= 關於(&A)...
+TEXT_HELP_ABOUT		= 顯示 Code Mate 信息、版本號和版權
+
+[Tool Bar]
+BUTTON_ADD_ITEM		= 添加項目
+BUTTON_NEW_CLASS	= 創建新分類
+BUTTON_SAVE		= 存儲更改
+BUTTON_UNDO		= 撤銷
+BUTTON_CUT		= 剪下
+BUTTON_COPY		= 複製
+BUTTON_PASTE		= 貼上
+BUTTON_CHANGE_TYPE	= 更改代碼類型
+BUTTON_FIND		= 尋找項目
+BUTTON_HELP		= 關於
+
+[String]
+STATUS_IDLE_MESSAGE	= 就緒
+STATUS_NO_OPENED_FILE	= 無檔案打開
+STATUS_CLICK_TO_EDIT	= 鼠標點擊編輯器以編輯文檔
+STATUS_SELECT_AN_ITEM	= 選定一個項目以檢視檔案內容
+STATUS_LINE_INFORMATION	= 　行: %d	列: %d	字符: %d　
+STATUS_CODE_TYPE	= 代碼類型: %s
+STATUS_NUM		= 數字
+STATUS_CAPS		= 大寫
+STATUS_SCRL		= 滾動
+STATUS_SPLITTER_EDGE	= 切分條已移到限制區域邊界，偏移量：%d
+STATUS_SPLITTER_MOVING	= 移動切分條，偏移量：%d
+TREE_ALL_CLASSES	= 所有分類
+TREE_NORMAL_CLASS	= 默認分類
+NEW_CLASS_NAME		= 新建分類
+NORMAL_TEXT		= 普通文本
+CLASSES			= 分類
+ALL_TYPES		= 所有類型
+DIALOG_OK		= 確認
+DIALOG_CANCEL		= 取消
+
+[Search Area]
+STATIC_CONTENT		= 檢索內容:
+BUTTON_SEARCH		= 檢索
+CHECK_MATCH_CASE	= 大小寫相異
+BUTTON_HIDE		= 隱藏
+
+[Add Item Dialog]
+DIALOG_TITLE		= 添加項目
+STATIC_TITLE		= 標題(&T):
+STATIC_CLASS		= 分類(&C)：
+BUTTON_CHANGE_CLASS	= 更改分類(&H)...
+STATIC_LANGUAGE		= 語言(&L)：
+BUTTON_SET_AS_DEFAULT	= 設為默認(&D)
+STATIC_SOURCE		= 來源(&S)：
+RADIO_EMPTY_FILE	= 空檔案
+RADIO_CLIPBOARD		= 剪貼簿
+RADIO_CODE_FILE		= 代碼檔案
+
+[Change Type Dialog]
+DIALOG_TITLE		= 更改代碼類型
+STATIC_TEXT		= 請選定當前檔案要更換到的代碼類型(&T)：
+
+[Config Dialog]
+DIALOG_TITLE		= 選項
+STATIC_GENERAL		= 綜合
+STATIC_LOCATION		= 分類與項目存儲位置(&T)：
+STATIC_INTERFACE_COLORS	= 介面顏色
+STATIC_COLOR_FORE	= 前景顏色(&F)：
+STATIC_COLOR_BACK	= 背景顏色(&B)：
+STATIC_ADD_CONTENTS	= 自定義語法著色內容
+RADIO_KEYWORDS		= 關鍵詞(&K)
+RADIO_CONSTANTS		= 常量(&C)
+STATIC_LANGUAGE		= 語言(&L)：
+STATIC_EDITOR		= 編輯器
+STATIC_DEFAULT_ENCODING	= 默認檔案編碼(&D)：
+STATIC_TAB_LENGTH	= Tab 長度(&T)：
+CHECK_SHOW_LINE_NUMBERS	= 顯示行號(&L)
+STATIC_COLORS		= 顏色
+STATIC_COLOR_LINENUM_F	= 行號前景色(&I)：
+STATIC_COLOR_LINENUM_B	= 行號背景色(&E)：
+STATIC_COLOR_KEYWORD	= 關鍵詞顏色(&K):
+STATIC_COLOR_CONSTANT	= 常亮顏色(&C):
+STATIC_COLOR_COMMENT	= 注釋顏色(&O)：
+STATIC_COLOR_STRING	= 字符串顏色(&S)：
+STATIC_FONT		= 字體(&N):
+BUTTON_DEFAULT_COLOR	= 默認顏色
+BUTTON_MORE_COLOR	= 更多顏色...
+STRING_BOLD		= 加粗
+STRING_ITALIC		= 傾斜
+
+[Attribute Dialog]
+DIALOG_TITLE		= 屬性
+ATTRIB_ITEM		= 項目
+ATTRIB_CLASS		= 分類
+ERROR_NOT_ACCESS	= [無法訪問]
+STATIC_TITLE		= 標題：
+STATIC_TYPE		= 類型：
+STATIC_CLASS		= 所屬分類：
+STATIC_CREATED_TIME	= 創建時間：
+STATIC_MIDIFIED_TIME	= 修改時間：
+STATIC_ACCESSED_TIME	= 訪問時間：
+
+[Move To Dialog]
+DIALOG_TITLE		= 移動到分類
+STATIC_INPUT		= 請選定要移動到的分類(&M)：
+
+[Go To Dialog]
+DIALOG_TITLE		= 轉到
+STATIC_LINE_NUMBER	= 行號(&L):
+STATIC_COLUMN_NUMBER	= 字符序號(&C):
+
+[Message Box]
+TITLE_INFORMATION	= 信息
+TITLE_WARNING		= 警告
+TITLE_ERROR		= 錯誤
+TITLE_QUESTION		= 提問
+CONTENT_FILE_SAVE	= 當前正在編輯的檔案尚未存儲。是否存儲？
+CONTENT_SAVE_ERROR	= 存儲檔案失敗！\n請確認檔案沒有被其他進程佔用，並且不具有只讀屬性。
+CONTENT_EXPORT_SUCCESS	= 導出檔案成功！
+CONTENT_READ_ERROR	= 讀取檔案失敗！\n請確認檔案存在，並且沒有被其他進程佔用。
+CONTENT_DELETE_CLASS	= 是否要移除當前選中的分類？\n請注意：移除的內容將無法恢復。
+CONTENT_DELETE_ITEM	= 是否要移除當前選中的項目？\n請注意：移除的內容將無法恢復。
+CONTENT_IN_THE_CLASS	= 當前打開的檔案屬於將被移動或移除的分類，執行操作將影響當前的檔案。\n是否要繼續？
+CONTENT_DELETE_ERROR	= 移除失敗！請確認檔案或資料夾存在，並且沒有被其他進程佔用。
+CONTENT_CLEAR_ALL_CLASS	= 此操作將刪除所有分類以及導入的代碼。\n請注意：刪除的內容將無法恢復。\n確定要執行嗎？
+CONTENT_MOVE_ERROR	= 不能將分類移動到它自身或下一層分類！
+CONTENT_MOVETO_ERROR	= 移動項目或分類失敗！\n請確認檔案沒有被其他進程佔用，並且不具有只讀屬性。
+CONTENT_MOVETO_SUCCESS	= 成功移動項目或分類『%s』。
+CONTENT_FILE_EXIST	= 目標檔案或分類已經存在！請重新命名標題或重新選定其他分類。
+CONTENT_PATH_NOT_EXIST	= 分類路徑不存在！請重新選定分類或重新載入所有項目和分類。
+CONTENT_RENAME_ERROR	= 重新命名操作失敗！\n請確認名稱符合命名規則、沒有重復，並且檔案或資料夾沒有被佔用。
+CONTENT_NEW_CLASS_ERROR	= 創建新分類失敗！\n請確認分類名稱符合命名規則並且沒有重復。
+CONTENT_INVILID_NAME	= 標題不符合檔案命名規則！
+CONTENT_TITLE_EMPTY	= 標題不能為空！
+CONTENT_INVALID_PATH	= 輸入的分類路徑有誤！請重新輸入或選定正確的分類。
+CONTENT_MOVE_ALL	= 是否將當前存儲資料夾下的所有內容移動到新的位置？\n注意：當前打開的文檔將被關閉。如果選否，未保存的內容將丟失！
+CONTENT_INVILID_LOCATION= 存儲位置無效！\n請重新選定或輸入正確的存儲路徑！
+CONTENT_PLEASE_INPUT	= 請輸入檢索內容！

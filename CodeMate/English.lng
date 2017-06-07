@@ -1,0 +1,221 @@
+[Code Mate]
+Language=2
+
+[File Menu]
+MENU_FILE		= &File
+MENU_FILE_ADD_ITEM	= &Add an Item...	Ctrl+N
+TEXT_FILE_ADD_ITEM	= Add a code segment item in a class
+MENU_FILE_CREATE_CLASS	= Create a &New Class
+TEXT_FILE_CREATE_CLASS	= Create a new class of code segment items
+MENU_FILE_SAVE		= &Save Changes	Ctrl+S
+TEXT_FILE_SAVE		= Save current code segment item
+MENU_FILE_EXPORT	= Ex&port as a File...
+TEXT_FILE_EXPORT	= Save current code segment item as a new file
+MENU_FILE_CLOSE		= Close C&urrent File
+TEXT_FILE_CLOSE		= Close current code segment item 
+MENU_FILE_MOVE		= &Move to a Class...
+TEXT_FILE_MOVE		= Move the selected item to the specified class
+MENU_FILE_DELETE_ITEM	= D&elete Selected Item	Shift+Del
+TEXT_FILE_DELETE_ITEM	= Delete the selected item or class
+MENU_FILE_DELETE_CLASS	= D&elete Selected Class	Shift+Del
+MENU_FILE_RENAME_ITEM	= &Rename Selected Item	F2
+TEXT_FILE_RENAME_ITEM	= Rename the selected item or class
+MENU_FILE_RENAME_CLASS	= &Rename Selected Class	F2
+MENU_FILE_ATTRIBUTE	= A&ttribute...	Alt+Enter
+TEXT_FILE_ATTRIBUTE	= View the attribute of the selected item
+MENU_FILE_REFRESH	= Re&load All Items and Classes
+TEXT_FILE_REFRESH	= Reload all of the information of items and classes
+MENU_FILE_CLEAR_ALL	= &Clear All Items and Classes
+TEXT_FILE_CLEAR_ALL	= Delete all of the items and classes
+MENU_FILE_EXIT		= &Exit	Alt+F4
+TEXT_FILE_EXIT		= Quit Code Mate; prompts to save documents
+MENU_FILE_SEARCH	= &Search Classes and Items	F4
+TEXT_FILE_SEARCH	= Serach for specified classes and items
+
+[Edit Menu]
+MENU_EDIT		= &Edit
+MENU_EDIT_UNDO		= &Undo	Ctrl+Z
+TEXT_EDIT_UNDO		= Undo the last action to the text
+MENU_EDIT_CUT		= Cu&t	Ctrl+X
+TEXT_EDIT_CUT		= Cut the selection and put it on the Clipboard
+MENU_EDIT_COPY		= &Copy	Ctrl+C
+TEXT_EDIT_COPY		= Copy the selection and put it on the Clipboard
+MENU_EDIT_PASTE		= &Paste	Ctrl+V
+TEXT_EDIT_PASTE		= Insert Clipboard contents
+MENU_EDIT_DELETE	= &Delete	Del
+TEXT_EDIT_DELETE	= Delete the selection 
+MENU_EDIT_SELECT_ALL	= Select &All	Ctrl+A
+TEXT_EDIT_SELECT_ALL	= Select the entire document
+MENU_EDIT_CLEAR_ALL	= C&lear All
+TEXT_EDIT_CLEAR_ALL	= Delete all the text of the document
+MENU_EDIT_ADD_A_LINE	= Add a &Line	Ctrl+M
+TEXT_EDIT_ADD_A_LINE	= Add a line at cuurent position
+MENU_EDIT_DEL_A_LINE	= Delete a L&ine	Ctrl+L
+TEXT_EDIT_DEL_A_LINE	= Delete cuurent line
+MENU_EDIT_FIND		= &Find...	Ctrl+F
+TEXT_EDIT_FIND		= Find the specified text
+MENU_EDIT_FIND_NEXT	= Find &Next	F3
+TEXT_EDIT_FIND_NEXT	= Find next specified text
+MENU_EDIT_REPLACE	= &Replace...	Ctrl+H
+TEXT_EDIT_REPLACE	= Replace the specified text with new text
+MENU_EDIT_GOTO		= &Go to...	Ctrl+G
+TEXT_EDIT_GOTO		= Move the caret to the specified line and char
+MENU_EDIT_SHOW_LIST	= &Show Auto-Complete List	Ctrl+J
+TEXT_EDIT_SHOW_LIST	= Show or hide the Auto-Complete list under the caret
+MENU_EDIT_CHANGE_TYPE	= C&hange Code Type...
+TEXT_EDIT_CHANGE_TYPE	= Set the Syntax-Coloring type of the current document
+
+[Setting Menu]
+MENU_SETTING		= &Settings
+MENU_SETTING_OPTION	= &Options...
+TEXT_SETTING_OPTION	= Open the config dialog of Code Mate
+MENU_SETTING_VIEW	= &View
+MENU_VIEW_TOOLBAR	= &Tool Bar
+TEXT_VIEW_TOOLBAR	= Show or hide the tool bar
+MENU_VIEW_STATUSBAR	= &Status Bar
+TEXT_VIEW_STATUSBAR	= Show or hide the status bar
+MENU_SETTING_LANGUAGE	= Interface &Language
+
+[Skin Menu]
+MENU_SKIN	= S&kin
+MENU_SKIN_SYSTEM		= <System Theme>
+TEXT_SKIN_SYSTEM		= Change Skin
+
+[Help Menu]
+MENU_HELP		= &Help
+MENU_HELP_VIEW_HELP	= &View Help...	F1
+TEXT_HELP_VIEW_HELP	= View the help information of Code Mate
+MENU_HELP_ABOUT		= &About...
+TEXT_HELP_ABOUT		= Display Code Mate information, version number and copyright
+
+[Tool Bar]
+BUTTON_ADD_ITEM		= Add an Item
+BUTTON_NEW_CLASS	= Create a New Class
+BUTTON_SAVE		= Save Changes
+BUTTON_UNDO		= Undo
+BUTTON_CUT		= Cut
+BUTTON_COPY		= Copy
+BUTTON_PASTE		= Paste
+BUTTON_CHANGE_TYPE	= Change Code Type
+BUTTON_FIND		= Find Items
+BUTTON_HELP		= About
+
+[String]
+STATUS_IDLE_MESSAGE	= Ready
+STATUS_NO_OPENED_FILE	= No file opened
+STATUS_CLICK_TO_EDIT	= Click on the editor to edit the file
+STATUS_SELECT_AN_ITEM	= Select an item to view its contents
+STATUS_LINE_INFORMATION	= ¡¡Ln: %d	Co: %d	Ch: %d¡¡
+STATUS_CODE_TYPE	= Code Type: %s
+STATUS_NUM		= NUM
+STATUS_CAPS		= CAPS
+STATUS_SCRL		= SCRL
+STATUS_SPLITTER_EDGE	= The splitter has been move to the edge of the restricted area, offset: %d
+STATUS_SPLITTER_MOVING	= Moving the splitter, offset: %d
+TREE_ALL_CLASSES	= All Classes
+TREE_NORMAL_CLASS	= Normal Class
+NEW_CLASS_NAME		= New Class
+NORMAL_TEXT		= Normal Text
+CLASSES			= Classes
+ALL_TYPES		= All Types
+DIALOG_OK		= OK
+DIALOG_CANCEL		= Cancel
+
+[Search Area]
+STATIC_CONTENT		= Content:
+BUTTON_SEARCH		= Search
+CHECK_MATCH_CASE	= Match Case
+BUTTON_HIDE		= Hide
+
+[Add Item Dialog]
+DIALOG_TITLE		= Add an Item
+STATIC_TITLE		= &Title:
+STATIC_CLASS		= &Class:
+BUTTON_CHANGE_CLASS	= C&hange Class...
+STATIC_LANGUAGE		= &Language:
+BUTTON_SET_AS_DEFAULT	= Set as &Default
+STATIC_SOURCE		= &Source:
+RADIO_EMPTY_FILE	= Empty File
+RADIO_CLIPBOARD		= Clipboard
+RADIO_CODE_FILE		= Code File
+
+[Change Type Dialog]
+DIALOG_TITLE		= Change Code Type
+STATIC_TEXT		= Please select the code &type that current file will be changed to:
+
+[Config Dialog]
+DIALOG_TITLE		= Options
+STATIC_GENERAL		= General
+STATIC_LOCATION		= &The Storage Location of the Classes and Items:
+STATIC_INTERFACE_COLORS	= Interface Colors
+STATIC_COLOR_FORE	= &Foreground Color:
+STATIC_COLOR_BACK	= &Background Color:
+STATIC_ADD_CONTENTS	= Customize Syntax-Coloring Contents
+RADIO_KEYWORDS		= &Keywords
+RADIO_CONSTANTS		= &Constants
+STATIC_LANGUAGE		= &Language:
+STATIC_EDITOR		= Editor
+STATIC_DEFAULT_ENCODING	= &Default File Encoding:
+STATIC_TAB_LENGTH	= &Tab Length:
+CHECK_SHOW_LINE_NUMBERS	= Show &Line Numbers
+STATIC_COLORS		= Colors
+STATIC_COLOR_LINENUM_F	= L&ine-Num Foreground Color:
+STATIC_COLOR_LINENUM_B	= Lin&e-Num Background Color:
+STATIC_COLOR_KEYWORD	= &Keyword Color:
+STATIC_COLOR_CONSTANT	= &Constant Color:
+STATIC_COLOR_COMMENT	= C&omment Color:
+STATIC_COLOR_STRING	= &String Color:
+STATIC_FONT		= Fo&nt:
+BUTTON_DEFAULT_COLOR	= Default Color
+BUTTON_MORE_COLOR	= More Colors...
+STRING_BOLD		= Bold
+STRING_ITALIC		= Italic
+
+[Attribute Dialog]
+DIALOG_TITLE		= Attribute
+ATTRIB_ITEM		= Item
+ATTRIB_CLASS		= Class
+ERROR_NOT_ACCESS	= [Cannot Access]
+STATIC_TITLE		= Title:
+STATIC_TYPE		= Type:
+STATIC_CLASS		= Class in:
+STATIC_CREATED_TIME	= Created Time:
+STATIC_MIDIFIED_TIME	= Modified Time:
+STATIC_ACCESSED_TIME	= Accessed Time:
+
+[Move To Dialog]
+DIALOG_TITLE		= Move to a Class
+STATIC_INPUT		= Please select or input a class path to &move to:
+
+[Go To Dialog]
+DIALOG_TITLE		= Go to
+STATIC_LINE_NUMBER	= &Line Number:
+STATIC_COLUMN_NUMBER	= &Char Index:
+
+[Message Box]
+TITLE_INFORMATION	= Information
+TITLE_WARNING		= Warning
+TITLE_ERROR		= Error
+TITLE_QUESTION		= Question
+CONTENT_FILE_SAVE	= The file being edited has not been saved.\nDo you want to save it?
+CONTENT_SAVE_ERROR	= Failed to save the file!\nPlease make sure that the file is not used by other process,\nand doesn't have read-only attribute.
+CONTENT_EXPORT_SUCCESS	= The file has been exported successfully!
+CONTENT_READ_ERROR	= Failed to load the file!\nPlease make sure that the file exists,\nand is not used being by other process.
+CONTENT_DELETE_CLASS	= Are you sure to delete the selected class?\nAttention: The class cannot be restored after it has been deleted.
+CONTENT_DELETE_ITEM	= Are you sure to delete the selected item?\nAttention: The item cannot be restored after it has been deleted.
+CONTENT_IN_THE_CLASS	= The file opened is belong to the class that will be moved or deleted.\nCurrent file must be influenced if the operation continued.\nDo you want to continue?
+CONTENT_DELETE_ERROR	= Failed to delete!\nPlease make sure that the file or directory exists,\nand is not being used by other process.
+CONTENT_CLEAR_ALL_CLASS	= This operation will remove all of the classes and items.\nAttention: These contents cannot be restored after they have been deleted.\nAre you sure to execute?
+CONTENT_MOVE_ERROR	= The class cannot be moved to itself or its child-class!
+CONTENT_MOVETO_ERROR	= Failed to move the item or class!\nPlease make sure that the file or directory is not being used by other process,\nand doesn't have read-only attribute.
+CONTENT_MOVETO_SUCCESS	= Move item or class "%s" successfully!
+CONTENT_FILE_EXIST	= The destination file or class has been existed.\nPlease rename the title or select another class.
+CONTENT_PATH_NOT_EXIST	= Class path doesn't exist!\nPlease select another class or reload all of the items and classes.
+CONTENT_RENAME_ERROR	= Failed to rename!\nPlease make sure that the title is valid filename,\nand there is no file or directory with the same name,\nand the file or directory is not being used by other process.
+CONTENT_NEW_CLASS_ERROR	= Failed to create the new class!\nPlease make sure that the title is valid filename,\nand there is no directory with the same name.
+CONTENT_INVILID_NAME	= The title does not meet the file naming rules!
+CONTENT_TITLE_EMPTY	= The title should not be empty!
+CONTENT_INVALID_PATH	= The class path inputed is invalid.\nPlease reinput or select a right one.
+CONTENT_MOVE_ALL	= Do you want to move all of the contents from the old location to the new location?\nAttention: The document opened will be closed. The unsaved contents will lose if you choose no.
+CONTENT_INVILID_LOCATION= The storage location is invilid.\nPlease select or input a right one.
+CONTENT_PLEASE_INPUT	= Please input the content to search.

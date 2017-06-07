@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\CodeMate.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CodeMate.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cpp.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cpp2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\dir.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\dir2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\splitter.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\c.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\c2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\htm.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\htm2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\js.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\js2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sql.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sql2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\txt.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\txt2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\vbs.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\vbs2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cs.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cs2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\picker.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\browse32.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\color-pro.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\new-pro32.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\delete-pro32.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\up-pro32.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\down-pro32.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\splitter.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\pointer.cur">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CodeMate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeMateDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeTypeDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FilePrepDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IsValidFileName.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveToDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyToolBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Splitter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AddItemDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GoToDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinPPWTL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CodeMate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeMateDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AddItemDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeTypeDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FilePrepDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IsValidFileName.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveToDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyToolBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Splitter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GoToDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CodeMate.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

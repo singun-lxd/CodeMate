@@ -1,0 +1,795 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\CodeMate.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_AFXBARRES_COLOR_PICKER BITMAP                  "res\\picker.bmp"
+IDB_AFXBARRES_BROWSE32  BITMAP                  "res\\browse32.bmp"
+IDB_AFXBARRES_NEW32     BITMAP                  "res\\new-pro32.bmp"
+IDB_AFXBARRES_DELETE32  BITMAP                  "res\\delete-pro32.bmp"
+IDB_AFXBARRES_UP32      BITMAP                  "res\\up-pro32.bmp"
+IDB_AFXBARRES_DOWN32    BITMAP                  "res\\down-pro32.bmp"
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDB_TOOLBAR_DISABLE     BITMAP                  "res\\Toolbar2.bmp"
+IDB_SPLITTER            BITMAP                  "res\\splitter.bmp"
+IDB_BITMAP1             BITMAP                  "res\\cpp.bmp"
+IDB_BITMAP2             BITMAP                  "res\\cpp2.bmp"
+IDB_BITMAP3             BITMAP                  "res\\dir.bmp"
+IDB_BITMAP4             BITMAP                  "res\\dir2.bmp"
+IDB_BITMAP5             BITMAP                  "res\\c.bmp"
+IDB_BITMAP6             BITMAP                  "res\\c2.bmp"
+IDB_BITMAP7             BITMAP                  "res\\htm.bmp"
+IDB_BITMAP8             BITMAP                  "res\\htm2.bmp"
+IDB_BITMAP9             BITMAP                  "res\\js.bmp"
+IDB_BITMAP10            BITMAP                  "res\\js2.bmp"
+IDB_BITMAP11            BITMAP                  "res\\sql.bmp"
+IDB_BITMAP12            BITMAP                  "res\\sql2.bmp"
+IDB_BITMAP13            BITMAP                  "res\\txt.bmp"
+IDB_BITMAP14            BITMAP                  "res\\txt2.bmp"
+IDB_BITMAP15            BITMAP                  "res\\vbs.bmp"
+IDB_BITMAP16            BITMAP                  "res\\vbs2.bmp"
+IDB_BITMAP17            BITMAP                  "res\\cs.bmp"
+IDB_BITMAP18            BITMAP                  "res\\cs2.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_FILE_ADDITEM
+    BUTTON      ID_FILE_ADDCLASS
+    SEPARATOR
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_UNDO
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_EDIT_CHANGE_TYPE
+    SEPARATOR
+    BUTTON      ID_EDIT_FIND
+    SEPARATOR
+    BUTTON      ID_HELP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\CodeMate.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_AFXBARRES_COLOR_DLG DIALOG 0, 0, 252, 180
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "颜色"
+FONT 9, "MS Shell Dlg 2"
+BEGIN
+    LTEXT           "制表占位符",IDC_AFXBARRES_STATICPLACEHOLDER,4,4,182,172,NOT WS_VISIBLE | WS_BORDER
+    PUSHBUTTON      "确定",IDOK,194,16,53,14
+    PUSHBUTTON      "取消",IDCANCEL,194,34,53,14
+    PUSHBUTTON      "选择(&E)...",IDC_AFXBARRES_COLOR_SELECT,194,65,53,14
+    CTEXT           "新建",IDC_STATIC,194,110,53,9,SS_CENTERIMAGE
+    PUSHBUTTON      "颜色",IDC_AFXBARRES_COLOURPLACEHOLDER,194,122,53,41
+    CTEXT           "当前",IDC_STATIC,194,166,53,10,SS_CENTERIMAGE
+END
+
+IDD_AFXBARRES_COLOR_PAGE_ONE DIALOG 0, 0, 147, 161
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_CAPTION | WS_SYSMENU
+CAPTION "标准"
+FONT 9, "MS Shell Dlg 2"
+BEGIN
+    LTEXT           "颜色:",IDC_STATIC,2,4,43,10
+    PUSHBUTTON      "十六进制",IDC_AFXBARRES_HEXPLACEHOLDER,2,17,143,107
+    PUSHBUTTON      "灰色",IDC_AFXBARRES_GREYSCALEPLACEHOLDER,2,131,143,26
+END
+
+IDD_AFXBARRES_COLORPAGE_TWO DIALOG 0, 0, 147, 161
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_CAPTION | WS_SYSMENU
+CAPTION "自定义"
+FONT 9, "MS Shell Dlg 2"
+BEGIN
+    LTEXT           "色调(&H):",IDC_STATIC,2,103,38,8,SS_CENTERIMAGE
+    EDITTEXT        IDC_AFXBARRES_H,41,102,30,13,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_AFXBARRES_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,60,102,11,14
+    LTEXT           "饱和度(&S):",IDC_STATIC,2,120,38,8,SS_CENTERIMAGE
+    EDITTEXT        IDC_AFXBARRES_S,41,119,30,13,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_AFXBARRES_SPIN2,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,60,119,11,14
+    LTEXT           "亮度(&L):",IDC_STATIC,2,137,38,8,SS_CENTERIMAGE
+    EDITTEXT        IDC_AFXBARRES_L,41,136,30,13,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_AFXBARRES_SPIN3,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,60,135,11,14
+    LTEXT           "红色(&R):",IDC_STATIC,86,103,28,8,SS_CENTERIMAGE
+    EDITTEXT        IDC_AFXBARRES_R,115,102,30,13,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_AFXBARRES_SPIN4,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,134,102,11,14
+    LTEXT           "绿色(&G):",IDC_STATIC,86,120,28,8,SS_CENTERIMAGE
+    EDITTEXT        IDC_AFXBARRES_G,115,119,30,13,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_AFXBARRES_SPIN5,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,134,119,11,14
+    LTEXT           "蓝色(&B):",IDC_STATIC,86,137,28,8,SS_CENTERIMAGE
+    EDITTEXT        IDC_AFXBARRES_B,115,136,30,13,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_AFXBARRES_SPIN6,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,134,136,11,14
+    LTEXT           "颜色:",IDC_STATIC,2,4,120,9
+    PUSHBUTTON      "颜色",IDC_AFXBARRES_COLOURPLACEHOLDER,2,14,120,80
+    PUSHBUTTON      "亮度",IDC_AFXBARRES_LUMINANCEPLACEHOLDER,126,14,18,80
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 191, 122
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC_IMG,34,15,20,20
+    LTEXT           "Code Mate  代码伴侣",IDC_STATIC_MAIN,61,19,111,8,SS_NOPREFIX
+    CTEXT           "多语言代码片段管理器",IDC_STATIC_DES,21,38,147,9
+    CTEXT           "",IDC_STATIC_VERSION,57,52,76,9
+    CTEXT           "版权所有 (C) 2011 刘新典",IDC_STATIC_CR,7,66,177,8
+    DEFPUSHBUTTON   "确定",IDOK,71,99,50,16,WS_GROUP
+    CTEXT           "Code Mate 的诞生离不开 CUltraPadWnd 开源项目",IDC_STATIC_OPEN,7,83,177,8
+END
+
+IDD_CODEMATE_MAIN DIALOGEX 0, 0, 387, 233
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_WINDOWEDGE | WS_EX_APPWINDOW
+MENU IDR_MAINFRAME
+CLASS "CodeMateClass"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_EDITLABELS | TVS_SHOWSELALWAYS | WS_BORDER | WS_HSCROLL | WS_TABSTOP,7,7,127,188,WS_EX_CLIENTEDGE
+    CONTROL         "",IDC_BUTTON_SPLITTER,"Button",BS_OWNERDRAW,135,7,6,219
+    LTEXT           "",IDC_STATIC_SEARCH,7,200,36,9,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT1,41,198,64,12,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    DEFPUSHBUTTON   "",IDC_BUTTON_SEARCH,105,198,30,12,NOT WS_VISIBLE
+    CONTROL         "",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,8,212,47,9
+    COMBOBOX        IDC_COMBO1,42,213,61,12,CBS_DROPDOWNLIST | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "",IDC_BUTTON_HIDE,105,212,30,12,NOT WS_VISIBLE
+END
+
+IDD_ADDITEM_DIALOG DIALOGEX 0, 0, 218, 98
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "添加项目"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "标题(&T)：",IDC_STATIC_TITLE,7,9,36,10
+    EDITTEXT        IDC_EDIT_TITLE,47,7,133,13,ES_AUTOHSCROLL
+    LTEXT           "分类(&C)：",IDC_STATIC_CLASS,7,25,34,10
+    EDITTEXT        IDC_EDIT_CLASS,47,25,99,13,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    PUSHBUTTON      "更改分类(&H)...",IDC_CHANGE_CLASS,151,22,60,14
+    LTEXT           "语言(&L)：",IDC_STATIC_LANG,7,41,33,10
+    CONTROL         "",IDC_COMBO_LANG,"ComboBoxEx32",CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP,47,39,99,99
+    PUSHBUTTON      "设为默认(&D)",IDC_SET_DEFAULT,151,38,60,14
+    LTEXT           "来源(&S)：",IDC_STATIC_SOURCE,7,57,33,10
+    CONTROL         "空文件",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,47,57,48,9
+    CONTROL         "剪贴板",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,99,57,48,9
+    CONTROL         "代码文件",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,151,57,48,9
+    DEFPUSHBUTTON   "确定",IDOK,104,77,50,14
+    PUSHBUTTON      "取消",IDCANCEL,161,77,50,14
+END
+
+IDD_MOVETO_DIALOG DIALOGEX 0, 0, 173, 153
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "移动到分类"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "请输入或选择要移动到的分类路径(&M)：",IDC_STATIC_INPUT,8,9,158,11
+    EDITTEXT        IDC_EDIT1,7,20,159,13,ES_AUTOHSCROLL
+    CONTROL         "",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | TVS_SINGLEEXPAND | WS_BORDER | WS_HSCROLL | WS_TABSTOP,7,36,159,93
+    DEFPUSHBUTTON   "确定",IDOK,59,132,50,14
+    PUSHBUTTON      "取消",IDCANCEL,116,132,50,14
+END
+
+IDD_CHANGELANG_DIALOG DIALOGEX 0, 0, 167, 142
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "更改代码类型"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "请选择当前文档要更换到的代码类型(&T)：",IDC_STATIC_TEXT,7,7,153,16
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,7,25,153,88
+    DEFPUSHBUTTON   "确定",IDOK,53,121,50,14
+    PUSHBUTTON      "取消",IDCANCEL,110,121,50,14
+END
+
+IDD_DIALOG_PREP DIALOGEX 0, 0, 175, 110
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "属性"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,118,89,50,14
+    LTEXT           "标题：",IDC_STATIC_TITLE,12,8,28,12
+    EDITTEXT        IDC_EDIT1,64,8,100,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    LTEXT           "所属分类：",IDC_STATIC_CLASS,12,34,49,12
+    EDITTEXT        IDC_EDIT2,64,34,100,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    LTEXT           "类型：",IDC_STATIC_LANTYPE,12,21,28,12
+    LTEXT           "",IDC_STATIC_TYPE,64,21,80,11
+    LTEXT           "创建时间：",IDC_STATIC_CTIME,12,47,49,12
+    LTEXT           "",IDC_STATIC_CRETIME,64,47,80,11
+    LTEXT           "修改时间：",IDC_STATIC_MTIME,12,60,49,12
+    LTEXT           "",IDC_STATIC_MODTIME,64,60,80,11
+    LTEXT           "访问时间：",IDC_STATIC_ATIME,12,74,49,12
+    LTEXT           "",IDC_STATIC_ACCTIME,64,74,80,11
+END
+
+IDD_DIALOG_GOTO DIALOGEX 0, 0, 182, 65
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "转到"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "行号(&L)：",IDC_STATIC_LINE_NO,7,10,56,11
+    EDITTEXT        IDC_EDIT_LINE,64,8,100,13,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SPIN1,"msctls_updown32",UDS_WRAP | UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,164,7,11,15
+    LTEXT           "字符序号(&C)：",IDC_STATIC_COLUMN_NO,7,27,56,11
+    EDITTEXT        IDC_EDIT_COLUMN,64,25,100,13,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN2,"msctls_updown32",UDS_WRAP | UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,164,24,11,15
+    DEFPUSHBUTTON   "确定",IDOK,67,44,50,14
+    PUSHBUTTON      "取消",IDCANCEL,125,44,50,14
+END
+
+IDD_DIALOG_CONFIG DIALOGEX 0, 0, 223, 237
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "选项"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TAB1,"SysTabControl32",0x0,7,7,209,205
+    GROUPBOX        "界面颜色",IDC_STATIC_GENERALS,18,63,188,49,0,WS_EX_TRANSPARENT
+    LTEXT           "前景颜色(&F)：",IDC_STATIC_COLOR6,28,77,61,11,0,WS_EX_TRANSPARENT
+    LTEXT           "背景颜色(&B)：",IDC_STATIC_COLOR5,28,94,61,11,0,WS_EX_TRANSPARENT
+    LTEXT           "Tab 长度(&T)：",IDC_STATIC_TABS,19,49,51,10,NOT WS_VISIBLE,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT2,71,47,29,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_VISIBLE
+    CONTROL         "",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | NOT WS_VISIBLE,101,46,10,13
+    CONTROL         "显示行号(&L)",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,130,47,74,12,WS_EX_TRANSPARENT
+    GROUPBOX        "颜色",IDC_STATIC_EDITOR,18,66,188,120,NOT WS_VISIBLE,WS_EX_TRANSPARENT
+    LTEXT           "行号前景颜色(&I)：",IDC_STATIC_COLOR7,28,82,95,11,NOT WS_VISIBLE,WS_EX_TRANSPARENT
+    LTEXT           "行号背景颜色(&E)：",IDC_STATIC_COLOR8,28,99,95,11,NOT WS_VISIBLE,WS_EX_TRANSPARENT
+    LTEXT           "关键词颜色(&K)：",IDC_STATIC_COLOR1,28,116,95,11,NOT WS_VISIBLE,WS_EX_TRANSPARENT
+    LTEXT           "常量颜色(&C)：",IDC_STATIC_COLOR2,28,133,95,11,NOT WS_VISIBLE,WS_EX_TRANSPARENT
+    LTEXT           "注释颜色(&O)：",IDC_STATIC_COLOR3,28,150,95,11,NOT WS_VISIBLE,WS_EX_TRANSPARENT
+    LTEXT           "字符串颜色(&S)：",IDC_STATIC_COLOR4,28,167,95,11,NOT WS_VISIBLE,WS_EX_TRANSPARENT
+    LTEXT           "字体(&N)：",IDC_STATIC_FONT,19,191,36,11,NOT WS_VISIBLE,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT1,61,191,115,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_VISIBLE | NOT WS_BORDER,WS_EX_TRANSPARENT
+    PUSHBUTTON      "...",IDC_BUTTON1,180,190,23,13,NOT WS_VISIBLE
+    DEFPUSHBUTTON   "确定",IDOK,109,216,50,14
+    PUSHBUTTON      "取消",IDCANCEL,166,216,50,14
+    LTEXT           "分类与项目存储位置(&T)：\t[.\\ 代表当前文件夹]",IDC_STATIC_POSITION,19,31,183,9
+    GROUPBOX        "自定义语法着色内容",IDC_STATIC_ADD,18,116,188,88
+    CONTROL         "关键词(&K)",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,27,130,47,11
+    CONTROL         "常量(&C)",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,76,130,47,11
+    LTEXT           "语言(&L)：",IDC_STATIC_LAN,27,145,51,9
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,27,157,90,40
+    LTEXT           "默认文件编码(&D)：",IDC_STATIC_ENCODING,19,31,79,10,NOT WS_VISIBLE
+    COMBOBOX        IDC_COMBO1,99,28,105,12,CBS_DROPDOWNLIST | CBS_SORT | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,22,70
+ PRODUCTVERSION 1,1,22,70
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "FileDescription", "代码片段管理器"
+            VALUE "FileVersion", "1.1.22.70"
+            VALUE "InternalName", "CodeMate.exe"
+            VALUE "LegalCopyright", "版权所有 (C) 刘新典。保留所有权利。"
+            VALUE "OriginalFilename", "CodeMate.exe"
+            VALUE "ProductName", "Code Mate"
+            VALUE "ProductVersion", "1.1.22.70"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 184
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 115
+    END
+
+    IDD_CODEMATE_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 380
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 225
+    END
+
+    IDD_ADDITEM_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_MOVETO_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 166
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 146
+    END
+
+    IDD_CHANGELANG_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 160
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 135
+    END
+
+    IDD_DIALOG_PREP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 168
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 103
+    END
+
+    IDD_DIALOG_GOTO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 175
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 58
+    END
+
+    IDD_DIALOG_CONFIG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 216
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 230
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "添加项目(&A)...\tCtrl+N",         ID_FILE_ADDITEM
+        MENUITEM "创建新分类(&N)",                   ID_FILE_ADDCLASS
+        MENUITEM SEPARATOR
+        MENUITEM "保存更改(&S)\tCtrl+S",            ID_FILE_SAVE
+        MENUITEM "导出为文件(&P)...",                ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "关闭当前文件(&U)",                  ID_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "移动到分类(&M)...",                ID_FILE_MOVETO
+        MENUITEM SEPARATOR
+        MENUITEM "删除",                          ID_DELETE_ITEM
+        MENUITEM SEPARATOR
+        MENUITEM "重命名",                         ID_RENAME_ITEM
+        MENUITEM SEPARATOR
+        MENUITEM "属性(&T)...\tAlt+Enter",        ID_FILE_PREP
+        MENUITEM SEPARATOR
+        MENUITEM "刷新项目和分类(&L)",                 ID_FILE_RELOAD
+        MENUITEM "清空项目和分类(&C)",                 ID_CLEAR_CLASS
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)\tAlt+F4",              ID_APP_EXIT
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "撤消(&U)\tCtrl+Z",              ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM "删除(&D)\tDel",                 ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "全选(&A)\tCtrl+A",              ID_EDIT_SELALL
+        MENUITEM "清空(&L)",                      ID_EDIT_CLEAR_ALL
+        MENUITEM SEPARATOR
+        MENUITEM "查找(&F)...\tCtrl+F",           ID_EDIT_FIND
+        MENUITEM "查找下一个(&N)\tF3",               ID_EDIT_FIND_NEXT
+        MENUITEM "替换(&R)...\tCtrl+H",           ID_EDIT_REPLACE
+        MENUITEM "转到(&G)...\tCtrl+G",           ID_EDIT_GOTO
+        MENUITEM SEPARATOR
+        MENUITEM "显示自动完成列表(&S)\tCtrl+J",        ID_EDIT_SHOWLIST
+        MENUITEM SEPARATOR
+        MENUITEM "更改代码类型(&H)...",               ID_EDIT_CHANGE_TYPE
+    END
+    POPUP "设置(&S)"
+    BEGIN
+        MENUITEM "选项(&O)...",                   ID_SET_OPTION
+        MENUITEM SEPARATOR
+        POPUP "查看(&V)"
+        BEGIN
+            MENUITEM "工具栏(&T)",                     ID_VIEW_TOOLBAR, CHECKED
+            MENUITEM "状态栏(&S)",                     ID_VIEW_STATUS_BAR, CHECKED
+        END
+        MENUITEM SEPARATOR
+        POPUP "界面语言(&L)"
+        BEGIN
+            MENUITEM "简体中文(默认)(&S)",                ID_LAN_CHNS
+            MENUITEM "繁體中文(&T)",                    ID_LAN_CHNT
+            MENUITEM "&English",                    ID_LAN_ENG
+        END
+    END
+    POPUP "皮肤(&K)"
+    BEGIN
+        MENUITEM "<系统主题>",                      ID_SKIN
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "查看帮助(&V)...\tF1",             ID_HELP
+        MENUITEM "关于(&A)...",                   ID_APP_ABOUT
+    END
+END
+
+IDR_MENU_RBUTTON MENU
+BEGIN
+    POPUP "项目分类右键"
+    BEGIN
+        MENUITEM "添加项目(&A)...\tCtrl+N",         ID_FILE_ADDITEM
+        MENUITEM "创建新分类(&N)",                   ID_FILE_ADDCLASS
+        MENUITEM SEPARATOR
+        MENUITEM "移动到分类(&M)...",                ID_FILE_MOVETO
+        MENUITEM SEPARATOR
+        MENUITEM "删除",                          ID_DELETE_ITEM
+        MENUITEM SEPARATOR
+        MENUITEM "重命名",                         ID_RENAME_ITEM
+        MENUITEM SEPARATOR
+        MENUITEM "属性(&T)...\tAlt+Enter",        ID_FILE_PREP
+        MENUITEM SEPARATOR
+        MENUITEM "搜索项目和分类(&S)\tF4",             ID_FILE_SEARCH
+    END
+    POPUP "编辑器右键"
+    BEGIN
+        MENUITEM "撤消(&U)\tCtrl+Z",              ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM "删除(&D)\tDel",                 ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "全选(&A)\tCtrl+A",              ID_EDIT_SELALL
+        MENUITEM SEPARATOR
+        MENUITEM "添加一行(&L)\tCtrl+M",            ID_A_LINE
+        MENUITEM "删除一行(I)\tCtrl+L",             ID_DEL_A_LINE
+        MENUITEM SEPARATOR
+        MENUITEM "显示自动完成列表(&S)\tCtrl+J",        ID_EDIT_SHOWLIST
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    VK_DELETE,      ID_DELETE_ITEM,         VIRTKEY, SHIFT, NOINVERT
+    "F",            ID_EDIT_FIND,           VIRTKEY, CONTROL, NOINVERT
+    VK_F3,          ID_EDIT_FIND_NEXT,      VIRTKEY, NOINVERT
+    "G",            ID_EDIT_GOTO,           VIRTKEY, CONTROL, NOINVERT
+    "H",            ID_EDIT_REPLACE,        VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_ADDITEM,        VIRTKEY, CONTROL, NOINVERT
+    VK_RETURN,      ID_FILE_PREP,           VIRTKEY, ALT, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    VK_F2,          ID_RENAME_ITEM,         VIRTKEY, NOINVERT
+    VK_F4,          ID_FILE_SEARCH,         VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_AFXBARRES_COLOR     CURSOR                  "res\\color-pro.cur"
+IDC_CURSOR_SPLITTER     CURSOR                  "res\\splitter.cur"
+IDC_POINTER             CURSOR                  "res\\pointer.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_AFXBARRES_NEW       "新建"
+    IDS_AFXBARRES_DELETE    "删除"
+    IDS_AFXBARRES_MOVEUP    "上移项"
+    IDS_AFXBARRES_MOVEDN    "下移项"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_INDICATOR_TIME      "选择一个项目以查看文档内容"
+    IDS_SPRITTER_MOVING     "移动切分条，偏移量：%d"
+    IDS_SPRITTER_EAGE       "切分条已移到限制区域边界，偏移量：%d"
+    IDS_LINE_INFO           "　行：%d\t列：%d\t字符：%d　"
+    IDS_MSGBOX_INFO         "提示"
+    IDS_MSGBOX_WARN         "警告"
+    IDS_MSGBOX_ERROR        "错误"
+    IDS_MSGBOX_QUES         "提问"
+    IDS_MSGBOX_SAVEERROR    "存储文件失败！\n请确认文件没有被其他进程占用，并且不具有只读属性。"
+    IDS_MSGBOX_FILEEXIST    "目标文件或分类已经存在！请重命名标题或重新选择其他分类。"
+    IDS_MSGBOX_MOVEITEM     "成功移动项目或分类“%s”。"
+    IDS_MSGBOX_DELITEM      "是否要删除当前选中的项目？\n请注意：删除的内容将无法恢复。"
+    IDS_MSGBOX_CLEARCLASS   "此操作将删除所有分类以及导入的代码。\n请注意：删除的内容将无法恢复。\n确定要执行吗？"
+    IDS_CLASS_NORMAL        "所有分类"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "Code Mate"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_CAPS       "大写"
+    ID_INDICATOR_NUM        "数字"
+    ID_INDICATOR_SCRL       "滚动"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_ADDCLASS        "新建一个代码片段项目的分类\n创建新分类"
+    ID_FILE_MOVETO          "将选定的项目移动到指定的分类\n移动到分类"
+    ID_SET_OPTION           "打开 Code Mate 的选项对话框\n选项"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_RELOAD          "重新加载所有项目和分类信息\n刷新"
+    ID_EDIT_CHANGE_TYPE     "设置当前文档的语法着色代码类型\n更改代码类型"
+    IDS_ABOUT_VERSION       "版本：%s"
+    ID_FILE_PREP            "查看选中项目的属性\n属性"
+    ID_SKIN                 "更换皮肤\n更换皮肤"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_SELALL          "选中所有文本内容\n全选"
+    ID_LAN_CHNS             "设置语言为简体中文\n简体中文"
+    ID_LAN_CHNT             "設置語言為繁體中文\n繁體中文"
+    ID_LAN_ENG              "Set the language to English\nEnglish"
+    ID_FILE_ADDITEM         "在分类中添加代码片段项目\n添加项目"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_CLOSE           "关闭当前代码片段项目\n关闭"
+    ID_FILE_SAVE            "将当前代码片段项目保存到文件中\n保存更改"
+    ID_FILE_SAVE_AS         "用一个新的文件名保存当前代码片段项目\n导出"
+    IDS_NORMAL_TEXT         "普通文本"
+END
+
+STRINGTABLE
+BEGIN
+    ID_CLEAR_CLASS          "清空所有分类和项目\n清空"
+    ID_RENAME_ITEM          "重命名选中的项目或分类\n重命名"
+    ID_A_LINE               "在当前位置添加一行\n添加一行"
+    ID_DEL_A_LINE           "删除当前行\n删除一行"
+    ID_EDIT_FIND_NEXT       "查找下一个指定的文本\n查找下一个"
+    ID_FILE_SEARCH          "搜索指定条件的项目和分类"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_SHOWLIST        "在光标位置显示或隐藏自动完成关键词列表"
+    ID_EDIT_GOTO            "将光标移动到指定的行和字符"
+    ID_DELETE_ITEM          "删除选中的项目或分类\n删除"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "显示 Code Mate 信息、版本号和版权\n关于"
+    ID_APP_EXIT             "退出 Code Mate；提示保存更改\n退出"
+    ID_HELP                 "查看 Code Mate 的帮助信息\n查看帮助"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "清除选定内容\n清除"
+    ID_EDIT_CLEAR_ALL       "清除全部内容\n全部清除"
+    ID_EDIT_COPY            "复制选定内容并将其放到剪贴板上\n复制"
+    ID_EDIT_CUT             "剪切选定内容并将其放到剪贴板上\n剪切"
+    ID_EDIT_FIND            "查找指定的文本\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPLACE         "用新的文本项替换指定的文本内容\n替换文本"
+    ID_EDIT_UNDO            "撤消上一文本操作\n撤消"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "显示或隐藏工具栏\n切换工具栏"
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n切换状态栏"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ITEM_SHOW           "默认分类"
+    IDS_MSGBOX_NOTEMPTY     "标题不能为空！"
+    IDS_MSGBOX_DELERROR     "删除失败！请确认文件或文件夹存在，并且没有被其他进程占用。"
+    IDS_MSGBOX_INCLASS      "当前打开的文件属于将被移动或删除的分类，执行操作将影响当前的文件。\n是否要继续？"
+    IDS_MSGBOX_EXPSUC       "导出文件成功！"
+    IDS_MSGBOX_NAMEERROR    "标题不符合文件命名规则！"
+    ID_INDICATOR_LANG       "\t代码类型：%s"
+    IDS_MSGBOX_RENAMEERR    "重命名操作失败！\n请确认名称符合命名规则、没有重复，并且文件或文件夹没有被占用。"
+    IDS_MSGBOX_PATHERR      "输入的分类路径有误！请重新输入或选择正确的分类。"
+    IDS_PREP_NOTACCES       "[无法获取]"
+    IDS_MSGBOX_MOVEERR      "不能将分类移动到它自身或下一层分类！"
+    IDS_NEW_CLASS           "新建分类"
+    IDS_MSGBOX_ADDCLASS_ERR "创建新分类失败！\n请确认分类名称符合命名规则并且没有重复。"
+    IDS_MNU_DELCLASS        "删除选中分类(&E)\tShift+Del"
+    IDS_MNU_DELITEM         "删除选中项目(&E)\tShift+Del"
+    IDS_MNU_RENAMECLASS     "重命名选中分类(&R)\tF2"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MNU_RENAMEITEM      "重命名选中项目(&R)\tF2"
+    IDS_MSGBOX_LOADERROR    "读取文件失败！\n请确认文件存在，并且没有被其他进程占用。"
+    IDS_MSGBOX_EXITWARN     "当前正在编辑的文件尚未保存。是否保存？"
+    IDS_MSGBOX_DELCLASS     "是否要删除当前选中的分类？\n请注意：删除的内容将无法恢复。"
+    IDS_MSGBOX_MOVETOERR    "移动项目或分类失败！\n请确认文件没有被其他进程占用，并且不具有只读属性。"
+    IDS_MSGBOX_PATHNOTEXIST "分类路径不存在！请重新选择分类或重新载入所有项目和分类。"
+    IDS_INDICATOR_FILE      "没有打开文件"
+    IDS_INDICATOR_FOCUS     "鼠标点击编辑器以编辑文档"
+    IDS_ABOUT_VERSION_E     "Version: %s"
+    IDS_ABOUT_DES_E         "Multi-Language Code Segments Manager"
+    IDS_ABOUT_CR_E          "Copyright (C) 2011 Xindian Liu"
+    IDS_ABOUT_DES_T         "多語言代碼片段總管"
+    IDS_ATTRIB_CLASS        "分类"
+    IDS_ABOUT_CR_T          "版權所有 (C) 2011 劉新典"
+    IDS_ABOUT_TITLE_E       "About"
+    IDS_ABOUT_TITLE_T       "關於"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ATTRIB_ITEM         "项目"
+    IDS_DEFAULT_COLOR       "默认颜色"
+    IDS_MORE_COLOR          "更多颜色..."
+    IDS_FONT_BOLD           "粗体"
+    IDS_FONT_ITALIC         "斜体"
+    IDS_TAB_APPEARANCE      "综合"
+    IDS_TAB_EDITOR          "编辑器"
+    IDS_MSGBOX_PATHCHANGE   "是否将当前存储文件夹下的所有内容移动到新的位置？\n注意：当前打开的文档将被关闭。如果选否，未保存的内容将丢失！"
+    IDS_MSGBOX_PATH_INVILID "存储位置无效！\n请重新选择或输入正确的存储路径！"
+    IDS_SEARCH_CONTENT      "搜索内容："
+    IDS_SEARCH_BUTTON       "搜索"
+    IDS_SEARCH_CHECK        "区分大小写"
+    IDS_SEARCH_HIDE         "隐藏"
+    IDS_COMBO_ALL           "所有类型"
+    IDS_COMBO_CLASS         "分类"
+    IDS_MSGBOX_PL_INPUT     "请输入搜索内容！"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUT_OPENSOURCE_E  "Code Mate is based on CUltraPadWnd Project"
+    IDS_ABOUT_OPENSOURCE_T  "Code Mate 的誕生離不開 CUltraPadWnd 開源專案"
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\CodeMate.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
