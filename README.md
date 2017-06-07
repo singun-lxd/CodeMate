@@ -1,4 +1,4 @@
-# CodeMate
+# CodeMate 代码片段管理器
 代码使用请遵循开源协议 GPL 3.0
 
 本项目基于Visual Studio 2010创建，要成功编译源代码要求Visual Studio的版本不低于
