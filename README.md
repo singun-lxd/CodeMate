@@ -1,6 +1,6 @@
 # CodeMate 代码片段管理器
 
-项目概述请参阅 [Readme] (https://github.com/singun-lxd/CodeMate/blob/master/CodeMate/ReadMe.md)
+项目概述请参阅：https://github.com/singun-lxd/CodeMate/blob/master/CodeMate/ReadMe.md
 
 ## 介绍
 经常编程的人应该会发现，自己长期以来写下来的代码很多很多，其中不乏一些相对复杂一点的项目。这些代码之中，很多是作者当时思考了很久得出的智慧结晶。而很久之后，突然在某个项目里需要用到以前的代码，在一堆的代码里可能一时间难以找到需要的那一段。
