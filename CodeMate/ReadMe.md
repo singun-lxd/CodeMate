@@ -1,7 +1,7 @@
 Code Mate 代码片段管理器 开源项目概述
 ===================================
 
-代码使用请遵循开源协议 [GPL3.0](https://github.com/singun-lxd/CodeMate/blob/master/README.md)
+代码使用请遵循开源协议 [GPL3.0](https://github.com/singun-lxd/CodeMate/blob/master/LICENSE.txt)
 
 本项目基于Visual Studio 2010创建，要成功编译源代码要求Visual Studio的版本不低于
 2008 SP1版本，VS 2010以下版本请手工创建项目并导入源代码。
